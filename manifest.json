@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Audio Recorder (local)",
+  "version": "1.0.0",
+  "description": "현재 탭 소리를 녹음해 다운로드 폴더에 저장합니다. 외부 통신 없음.",
+  "minimum_chrome_version": "116",
+  "permissions": ["tabCapture", "offscreen", "downloads"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "클릭: 이 탭 녹음 시작 / 다시 클릭: 중지 후 저장" }
+}
