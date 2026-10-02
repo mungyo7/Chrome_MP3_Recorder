@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# 확장 프로그램 압축 결과물 (.pem은 서명용 개인키)
+*.pem
+*.crx
